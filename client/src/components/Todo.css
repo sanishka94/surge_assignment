@@ -1,0 +1,18 @@
+.todo-text{
+    margin: auto 50px;
+}
+
+.todo-title{
+    font-size: medium;
+}
+
+.todo-description{
+    font-size: small;
+}
+
+.todo-edit-form{
+    display: flex;
+    flex-direction: column;
+    /* height: 500px;
+    width: 350px; */
+}

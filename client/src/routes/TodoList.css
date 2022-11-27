@@ -1,0 +1,35 @@
+.todolist-wrapper {
+  width: 100vw;
+  min-height: calc(100vh - 70px);
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todolist {
+  width: 50vw;
+  min-width: 500px;
+  margin: 10px;
+  min-height: 100px;
+  height: fit-content;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.circular-progress-wrapper{
+  width: 50vw;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 500px) { 
+  .todolist {
+    width: 100vw;
+    min-width: 350px;
+    margin: 0px;
+    border-radius: 0;
+  }
+}

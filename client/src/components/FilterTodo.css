@@ -1,0 +1,21 @@
+.sort-todo {
+    width: 50vw;
+    min-width: 500px;
+    padding: 10px 20px;
+    margin: 10px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .sort-todo-form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media only screen and (max-width: 500px) { 
+    .sort-todo {
+      width: 100vw;
+      min-width: 350px;
+    }
+  }

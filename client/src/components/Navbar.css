@@ -1,0 +1,25 @@
+.navbar-wrapper{
+    width: 100vw;
+    height: 70px;
+    border-bottom: 1px solid rgb(170, 170, 170);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-content{
+    width: 50vw;
+    height: 100%;
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 500px) { 
+    .navbar-content {
+      width: 100vw;
+      min-width: 350px;
+      
+    }
+  }
